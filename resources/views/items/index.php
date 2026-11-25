@@ -45,13 +45,10 @@ $success = $success ?? '';
                 foreach($items as $item)
                 {
                     echo "<tr>";
-
-                echo "<td>
-                        <a href='edit.php?id=" . $item['id'] . "'>"
-                        . $item['naam'] . "</a>
-                        </td>";
-
-                    echo "<td>" . htmlspecialchars($item['naam']) . "</td>";
+                    echo "<td>
+                            <a href='" . $base_url . "/resources/views/items/edit.php?id=" . $item['id'] . "'>"
+                            . htmlspecialchars($item['naam']) . "</a>
+                          </td>";
                     echo "<td>" . htmlspecialchars($item['beschrijving']) . "</td>";
                     echo "<td>" . htmlspecialchars($item['categorie']) . "</td>";
                     echo "<td>" . htmlspecialchars($item['aantal']) . "</td>";
