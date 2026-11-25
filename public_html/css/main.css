@@ -1,0 +1,90 @@
+/* ALGEMEEN */
+
+html{
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+body{
+    margin: 0;
+    font-family: Arial;
+    color: #222;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: royalblue;
+    color: white;
+    font-size: 1.25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+header a{
+    color: black;
+}
+
+.logo{
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+
+h1+a{
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+.msg{
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: lightblue;
+    border-radius: 4px;
+}
+
+.msg-error{
+    background-color: pink;
+}
+
+/* OVERZICHT */
+
+table{
+    width: 100%;
+}
+
+th{
+    text-align: left;
+}
+
+/* FORMULIER */
+
+.form-group{
+    margin: 1rem 0;
+}
+
+label{
+    cursor: pointer;
+    display: inline-block;
+    min-width: 140px;
+    vertical-align: top;
+}
+
+.form-input{
+    width: 600px;
+    font: inherit;
+}
+
+textarea{
+    resize: vertical;
+}
+
+.error{
+    color: red;
+}
